@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100vw;
+   height: 100vw;
+   background-color: #333;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: "Roboto", sans-serif;
+}
+
+.card {
+   width: 368px;
+   height: 368px;
+   background-color: #acdad4;
+   border-radius: 16px;
+   position: relative;
+}
+
+.card img {
+   width: 336px;
+   height: 152px;
+   position: absolute;
+   top: 16px;
+   left: 16px;
+}
+
+.card .input01 {
+   background-color: #fff;
+   color: #fff;
+   position: absolute;  
+   top: 186px;
+   left: 16px;
+   width: 60px;
+   font-size: 12px;
+   text-align: right;
+}
+
+.card .input01a {
+   background-color: #e5dbfd;
+   color: #b48aee;
+   font-size: 12px;
+   font-weight: 700;
+   width: 60px;
+   border-radius: 12px 0 0 12px;
+   position: absolute;
+   top: 186px;
+   left: 16px;
+   text-align: right;
+   z-index: 10;
+}
+
+.card .input02 {
+   background-color: #fff;
+   color: #fff;
+   position: absolute;
+   top: 182px;
+   left: 92px;
+   width: 260px;
+   font-size: 1rem;
+}
+
+.card .input03 {
+   background-color: #fff;
+   color: #000;
+   position: absolute;
+   top: 212px;
+   left: 16px;
+   width: 336px;
+   font-size: 1.25rem;
+   font-weight: 600;
+}
+
+.card .input04 {
+   background-color: #fff;
+   color: #000;
+   position: absolute;
+   top: 238px;
+   left: 16px;
+   width: 336px;
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.card .input05 {
+   position: absolute;
+   width: 336px;
+   height: 20px;
+   background-color: #acdad4;
+   color: #acdad4;
+   border-bottom: 2px dotted #014328;
+   top: 289px;
+   left: 16px;
+
+}
+
+.card .input06 {
+   background-color: #fff;
+   color: #000;
+   position: absolute;
+   top: 329px;
+   left: 16px;
+   width: 336px;
+   font-size: 14px;
+   font-weight: 400;
+}
