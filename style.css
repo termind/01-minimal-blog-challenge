@@ -9,7 +9,7 @@
 body {
    width: 100vw;
    height: 100vw;
-   background-color: #333;
+   background-color: #fafaf9;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -19,9 +19,10 @@ body {
 .card {
    width: 368px;
    height: 368px;
-   background-color: #acdad4;
+   background-color: #fff;
    border-radius: 16px;
    position: relative;
+   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
@@ -33,27 +34,16 @@ body {
 }
 
 .card .input01 {
-   background-color: #fff;
-   color: #fff;
-   position: absolute;  
-   top: 186px;
-   left: 16px;
-   width: 60px;
-   font-size: 12px;
-   text-align: right;
-}
-
-.card .input01a {
    background-color: #e5dbfd;
    color: #b48aee;
    font-size: 12px;
    font-weight: 700;
    width: 60px;
-   border-radius: 12px 0 0 12px;
+   border-radius: 12px;
    position: absolute;
    top: 186px;
    left: 16px;
-   text-align: right;
+   text-align: center;
    z-index: 10;
 }
 
@@ -69,7 +59,7 @@ body {
 
 .card .input03 {
    background-color: #fff;
-   color: #000;
+   color: #333;
    position: absolute;
    top: 212px;
    left: 16px;
@@ -80,7 +70,7 @@ body {
 
 .card .input04 {
    background-color: #fff;
-   color: #000;
+   color: #333;
    position: absolute;
    top: 238px;
    left: 16px;
@@ -91,13 +81,12 @@ body {
 
 .card .input05 {
    position: absolute;
-   width: 336px;
+   width: 368px;
    height: 20px;
-   background-color: #acdad4;
-   color: #acdad4;
-   border-bottom: 2px dotted #014328;
+   color: #fff;
+   border-bottom: 2px dotted #111;
    top: 289px;
-   left: 16px;
+   left: 0px;
 
 }
 
